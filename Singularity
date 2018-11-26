@@ -17,6 +17,9 @@ Build 1.1
 
 	conda install shovill
 
+%environment
+	export PYTHONNOUSERSITE=NO
+        export PYTHONPATH=/opt/conda/lib/python3.6/site-packages
 
 %runscript
         echo " A container for shovill "
